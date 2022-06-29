@@ -93,6 +93,15 @@ img {
   padding-top: 16px;
   padding-bottom: 16px;
 }
+
+.link-cont::before {
+  content: '';
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  background-image: url();
+  background-size: contain;
+}
 .site-cont {
   display: flex;
   margin-left: auto;
