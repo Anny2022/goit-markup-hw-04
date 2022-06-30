@@ -95,27 +95,31 @@ img {
 }
 
 .icon-email {
-  display: block;
-  margin-right: 10px;
   width: 16px;
   height: 12px;
+}
+
+.icon-email,
+.icon-phone {
+  fill: rgba(117, 117, 117, 1);
+  border: rgba(0, 0, 0, 1);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-right: 10px;
+}
+.icon-phone {
+  width: 10px;
+  height: 16px;
+  margin-left: 30px;
+}
+
+.icon-email:hover,
+.icon-phone:hover {
   fill: var(--accent-text-color);
 }
-/* .link-cont::before {
-  content: '';
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  background-image: url();
-  background-size: contain;
-} */
+
 .site-cont {
   display: flex;
   margin-left: auto;
-}
-
-.site-cont .item + .item {
-  margin-left: 50px;
 }
 
 /* Logo */
