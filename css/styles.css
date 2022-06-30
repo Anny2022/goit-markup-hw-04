@@ -112,8 +112,8 @@ img {
   margin-left: 30px;
 }
 
-.icon-email:hover,
-.icon-phone:hover {
+.link-cont:hover .icon-email,
+.link-cont:hover .icon-phone {
   fill: var(--accent-text-color);
 }
 
