@@ -94,14 +94,21 @@ img {
   padding-bottom: 16px;
 }
 
-.link-cont::before {
+.icon-email {
+  display: block;
+  margin-right: 10px;
+  width: 16px;
+  height: 12px;
+  fill: var(--accent-text-color);
+}
+/* .link-cont::before {
   content: '';
   width: 16px;
   height: 12px;
   margin-right: 10px;
   background-image: url();
   background-size: contain;
-}
+} */
 .site-cont {
   display: flex;
   margin-left: auto;
