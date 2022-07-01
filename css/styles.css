@@ -19,7 +19,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.list {
+ul {
   padding: 0;
   margin: 0;
 }
@@ -45,6 +45,11 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
 }
 .visually-hidden {
   position: absolute;
@@ -354,18 +359,17 @@ span,
   list-style: none;
   width: 206px;
   height: 44px;
-  margin: 0 32px;
   padding: 0;
 }
 .social-item {
   width: 44px;
   height: 44px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 .social-link {
   width: 44px;
   height: 44px;
-  margin: 12px;
+  /* margin: 12px; */
 }
 .social-icon {
   width: 20px;
@@ -449,7 +453,8 @@ span,
 
 .container-footer {
   display: flex;
-  flex-direction: column;
+  align-items: baseline;
+  /* flex-direction: column; */
   margin: 0 auto;
   max-width: 1200px;
   width: 100%;
@@ -496,9 +501,42 @@ span,
 
 .cta {
   display: flex;
-  margin-right: 70px;
-  margin-top: 100px;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 70px;
+  max-width: 206px;
 }
+.strong {
+  width: 100%;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+
+  color: #ffffff;
+}
+.social-list {
+  width: 100%;
+}
+
+.social-link {
+  width: 44px;
+  height: 44px;
+  fill: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+}
+
+.social-icon 
+
+
+/* .social {
+  justify-content: space-between;
+} */
 
 /* Portfolio */
 /* Filter */
